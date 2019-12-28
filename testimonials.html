@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>aprashantz-FreeLancer/Student</title>
+        <meta name="description" content="Portfolio website of aprashantz"/>
+        <meta name="keywords" content="aprashantz, ghimire, prashant, awarself, platimal, islington, gprash,"/>
+        <meta name="author" content="aprashantz"/>
+        <link rel="stylesheet" type="text/css" href="..//css/style.css">
+        <link rel="icon" href="..//images/dp1.JPG" type="image/icon type">
+        <style type="text/css">
+            
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <table style= "width: 80%;">
+                <tr>
+                    <th><a href="..//index.html">
+                        <img src="..//images/logo.PNG" alt="aprashantz_LOGO" align= "center" width="54" height="54">   
+                    </a></th>
+                    <th><a href="..//index.html" >Home</a></th>
+                    <th><a href="portfolio.html" >Portfolio</a></th>
+                    <th><a href="testimonials.html" style= "color: #551A8B; font-weight: bold; font-size: 18px;">Testimonials</a></th>
+                    <th><a href="blog.html">Blogs</a></th>
+                    <th><a href="contactme.html">ContactMe</a></th>
+                </tr>
+            </table>
+            
+        </div>
+        <div class="main">
+            <h2>Glad to make these faces happy.</h2></br>
+            <img class="mySlides" src="../images/comment1.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment2.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment3.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment4.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment5.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment6.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment7.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment8.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment9.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment10.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment11.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment12.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment13.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment14.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment15.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment16.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment17.PNG" style="width:100%">
+            <img class="mySlides" src="../images/comment18.PNG" style="width:100%">
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+        </div>
+        <div class="footer">
+            <p style= "font-size: 13px;">© 2019 @aprashantz </p>
+        </div>
+      
+    </body>
+</html>
